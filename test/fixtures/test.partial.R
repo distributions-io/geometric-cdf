@@ -1,7 +1,7 @@
 options( digits = 16 )
 library( jsonlite )
 
-p = 0.5
+p = 0.7
 x = c( -5, -2.5, 0, 2.5, 5 )
 y = pgeom( x, p )
 

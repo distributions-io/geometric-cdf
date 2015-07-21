@@ -51,4 +51,8 @@ describe( 'number cdf', function tests() {
 		assert.isTrue( isnan( cdf( NaN, p ) ) );
 	});
 
+	it( 'should return 1 if x is +Infinity', function test() {
+		assert.isTrue( cdf( Number.POSITIVE_INFINITY, p ) === 1 );
+	});
+
 });

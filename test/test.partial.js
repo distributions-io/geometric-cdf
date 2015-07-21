@@ -54,9 +54,14 @@ describe( 'partial cdf', function tests() {
 		}
 	});
 
-	it( 'should return `NaN` if provided `NaN` as input', function test() {
+	it( 'the returned function should return `NaN` if provided `NaN` as input', function test() {
 		var cdf = partial(  p );
 		assert.isTrue( isnan( cdf( NaN ) ) );
+	});
+
+	it( 'the returned function should return 1 if x is +Infinity', function test() {
+		var cdf = partial(  p );
+		assert.isTrue( cdf( Number.POSITIVE_INFINITY, p ) === 1 );
 	});
 
 });
