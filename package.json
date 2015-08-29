@@ -32,7 +32,7 @@
     "cumulative distribution",
     "distribution function",
     "memoryless",
-    "life-time"
+    "life-time",
     "discrete"
   ],
   "bugs": {
@@ -62,7 +62,7 @@
     "istanbul": "^0.3.0",
     "jshint": "2.x.x",
     "jshint-stylish": "2.x.x",
-	"validate.io-finite": "^1.0.0"
+    "validate.io-finite": "^1.0.0"
   },
   "license": "MIT"
 }

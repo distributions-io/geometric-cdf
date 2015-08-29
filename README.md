@@ -14,7 +14,7 @@ The [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_
 	<br>
 </div>
 
-where `p` is the success probability.
+where `p` is the success probability. `x` denotes the number of *failures* before the first success.
 
 ## Installation
 
